@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "rockcandymod:candy_of_stealth_ore"
+  },
+  "result": {
+    "item": "rockcandymod:candy_of_stealth",
+    "count": 2
+  }
+}

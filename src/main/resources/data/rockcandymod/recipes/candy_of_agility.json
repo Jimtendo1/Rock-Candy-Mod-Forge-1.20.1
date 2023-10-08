@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rockcandymod:candy_of_power"
+    },
+    {
+      "item": "rockcandymod:candy_of_power"
+    },
+    {
+      "item": "rockcandymod:candy_of_swiftness"
+    },
+    {
+      "item": "rockcandymod:candy_of_swiftness"
+    }
+  ],
+  "result": {
+    "item": "rockcandymod:candy_of_agility",
+    "count": 2
+  }
+}

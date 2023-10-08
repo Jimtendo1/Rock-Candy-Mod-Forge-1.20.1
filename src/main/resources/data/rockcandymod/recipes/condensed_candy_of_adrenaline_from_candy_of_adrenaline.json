@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+  "###",
+  "###",
+  "###"
+],
+  "key": {
+    "#": {
+      "item": "rockcandymod:candy_of_adrenaline"
+    }
+  },
+  "result": {
+    "item": "rockcandymod:condensed_candy_of_adrenaline"
+  }
+}

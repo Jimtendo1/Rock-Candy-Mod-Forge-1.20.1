@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rockcandymod:candy_of_stealth"
+    },
+    {
+      "item": "rockcandymod:candy_of_stealth"
+    },
+    {
+      "item": "rockcandymod:candy_of_power"
+    },
+    {
+      "item": "rockcandymod:candy_of_power"
+    }
+  ],
+  "result": {
+    "item": "rockcandymod:candy_of_purity",
+    "count": 2
+  }
+}

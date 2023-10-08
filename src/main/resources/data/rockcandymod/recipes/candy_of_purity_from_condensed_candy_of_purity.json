@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rockcandymod:condensed_candy_of_purity"
+    }
+  ],
+  "result": {
+    "item": "rockcandymod:candy_of_purity",
+    "count": 9
+  }
+}

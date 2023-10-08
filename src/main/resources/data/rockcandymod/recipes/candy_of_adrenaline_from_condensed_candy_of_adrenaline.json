@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "rockcandymod:condensed_candy_of_adrenaline"
+    }
+  ],
+  "result": {
+    "item": "rockcandymod:candy_of_adrenaline",
+    "count": 9
+  }
+}
