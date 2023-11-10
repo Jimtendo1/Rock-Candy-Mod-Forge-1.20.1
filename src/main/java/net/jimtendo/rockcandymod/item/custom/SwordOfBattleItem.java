@@ -1,14 +1,10 @@
 package net.jimtendo.rockcandymod.item.custom;
 
-import net.jimtendo.rockcandymod.RockCandyMod;
 import net.jimtendo.rockcandymod.item.ModItems;
-import net.minecraft.ChatFormatting;
-import net.minecraft.advancements.critereon.UsedTotemTrigger;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.player.Player;
@@ -23,21 +19,35 @@ public class SwordOfBattleItem extends SwordItem {
         super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
     }
 
-
     @Override
     public void onInventoryTick(ItemStack stack, Level level, Player player, int slotIndex, int selectedIndex) {
+
 
         if (player != null) {
             ItemStack mainHandItem = player.getMainHandItem();
             if (mainHandItem != null) {
                 Item heldItem = mainHandItem.getItem();
-                if (heldItem == ModItems.SWORD_OF_BATTLE.get()) {
-                    player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100));
+                if (heldItem == (ModItems.SWORD_OF_BATTLE.get())) {
+                    player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100));
                 }
             }
         }
         super.onInventoryTick(stack, level, player, slotIndex, selectedIndex);
     }
+
+
+    //apply effect when right clicked
+    @Override
+    public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
+        if (hand == InteractionHand.MAIN_HAND) {
+            if (player.getItemInHand(hand).getItem() == this) {
+                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 100));
+                return new InteractionResultHolder<>(InteractionResult.SUCCESS, player.getItemInHand(hand));
+            }
+        }
+        return new InteractionResultHolder<>(InteractionResult.PASS, player.getItemInHand(hand));
+    }
+
 
 
     @Override
@@ -46,5 +56,3 @@ public class SwordOfBattleItem extends SwordItem {
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }
-
-
