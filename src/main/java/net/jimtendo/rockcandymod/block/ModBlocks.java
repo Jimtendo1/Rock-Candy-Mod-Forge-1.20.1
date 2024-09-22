@@ -2,6 +2,7 @@ package net.jimtendo.rockcandymod.block;
 
 import net.jimtendo.rockcandymod.RockCandyMod;
 import net.jimtendo.rockcandymod.item.ModItems;
+import net.jimtendo.rockcandymod.item.custom.*;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -21,40 +22,40 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, RockCandyMod.MOD_ID);
 
     public static final RegistryObject<Block> CANDY_OF_BATTLE_ORE = registerBlock("candy_of_battle_ore",
-        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
+        () -> new CandyOfBattleOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CANDY_OF_HASTE_ORE = registerBlock("candy_of_haste_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
+            () -> new CandyOfHasteOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CANDY_OF_POWER_ORE = registerBlock("candy_of_power_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
+            () -> new CandyOfPowerOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CANDY_OF_STEALTH_ORE = registerBlock("candy_of_stealth_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
+            () -> new CandyOfStealthOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CANDY_OF_SWIFTNESS_ORE = registerBlock("candy_of_swiftness_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
+            () -> new CandyOfSwiftnessOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_BATTLE = registerBlock("condensed_candy_of_battle",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new CondensedCandyOfBattleItem(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_HASTE = registerBlock("condensed_candy_of_haste",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+            () -> new CondensedCandyOfHasteItem(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_POWER = registerBlock("condensed_candy_of_power",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+            () -> new CondensedCandyOfPowerItem(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_STEALTH = registerBlock("condensed_candy_of_stealth",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+            () -> new CondensedCandyOfStealthItem(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_SWIFTNESS = registerBlock("condensed_candy_of_swiftness",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+            () -> new CondensedCandyOfSwiftnessItem(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_ADRENALINE = registerBlock("condensed_candy_of_adrenaline",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+            () -> new CondensedCandyOfAdrenalineItem(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_AGILITY = registerBlock("condensed_candy_of_agility",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+            () -> new CondensedCandyOfAgilityItem(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_DEFENSE = registerBlock("condensed_candy_of_defense",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+            () -> new CondensedCandyOfDefenseItem(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_PURITY = registerBlock("condensed_candy_of_purity",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+            () -> new CondensedCandyOfPurityItem(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_DESTRUCTION = registerBlock("condensed_candy_of_destruction",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
+            () -> new CondensedCandyOfDestructionItem(BlockBehaviour.Properties.copy(Blocks.COAL_BLOCK)));
 
 
 

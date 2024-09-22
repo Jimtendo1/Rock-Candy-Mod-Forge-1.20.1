@@ -14,8 +14,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 @Mod.EventBusSubscriber(modid = "rockcandymod")
-public class SwordOfBattleItem extends SwordItem {
-    public SwordOfBattleItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
+public class ShovelOfHasteItem extends ShovelItem {
+    public ShovelOfHasteItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
     }
 
@@ -25,9 +25,9 @@ public class SwordOfBattleItem extends SwordItem {
             Player player = event.player;
             ItemStack mainHandItem = player.getMainHandItem();
 
-            if (mainHandItem.getItem() instanceof SwordOfBattleItem) {
-                if (!player.hasEffect(MobEffects.DAMAGE_BOOST)) {
-                    player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 159, 0, false, false));
+            if (mainHandItem.getItem() instanceof ShovelOfHasteItem) {
+                if (!player.hasEffect(MobEffects.DIG_SPEED)) {
+                    player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 159, 0, false, false));
                 }
             }
         }
@@ -35,11 +35,11 @@ public class SwordOfBattleItem extends SwordItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.sword.line1"));
-        pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.candy_of_battle"));
+        pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.shovel.line1"));
+        pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.candy_of_haste"));
         pTooltipComponents.add(Component.literal(""));
         pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.tool.effects"));
-        pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.tool.effect.strength"));
+        pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.tool.effect.haste1"));
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }

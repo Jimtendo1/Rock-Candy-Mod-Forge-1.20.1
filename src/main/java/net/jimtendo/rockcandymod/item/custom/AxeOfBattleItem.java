@@ -14,8 +14,8 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 @Mod.EventBusSubscriber(modid = "rockcandymod")
-public class SwordOfBattleItem extends SwordItem {
-    public SwordOfBattleItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
+public class AxeOfBattleItem extends AxeItem {
+    public AxeOfBattleItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
     }
 
@@ -25,7 +25,7 @@ public class SwordOfBattleItem extends SwordItem {
             Player player = event.player;
             ItemStack mainHandItem = player.getMainHandItem();
 
-            if (mainHandItem.getItem() instanceof SwordOfBattleItem) {
+            if (mainHandItem.getItem() instanceof AxeOfBattleItem) {
                 if (!player.hasEffect(MobEffects.DAMAGE_BOOST)) {
                     player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 159, 0, false, false));
                 }
@@ -35,7 +35,7 @@ public class SwordOfBattleItem extends SwordItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.sword.line1"));
+        pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.axe.line1"));
         pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.candy_of_battle"));
         pTooltipComponents.add(Component.literal(""));
         pTooltipComponents.add(Component.translatable("tooltip.rockcandymod.tool.effects"));

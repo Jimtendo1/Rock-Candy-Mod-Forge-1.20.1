@@ -39,6 +39,18 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SHOVEL_OF_BATTLE.get());
                         pOutput.accept(ModItems.HOE_OF_BATTLE.get());
 
+                        pOutput.accept(ModItems.SWORD_OF_HASTE.get());
+                        pOutput.accept(ModItems.PICKAXE_OF_HASTE.get());
+                        pOutput.accept(ModItems.AXE_OF_HASTE.get());
+                        pOutput.accept(ModItems.SHOVEL_OF_HASTE.get());
+                        pOutput.accept(ModItems.HOE_OF_HASTE.get());
+
+                        pOutput.accept(ModItems.SWORD_OF_POWER.get());
+                        pOutput.accept(ModItems.PICKAXE_OF_POWER.get());
+                        pOutput.accept(ModItems.AXE_OF_POWER.get());
+                        pOutput.accept(ModItems.SHOVEL_OF_POWER.get());
+                        pOutput.accept(ModItems.HOE_OF_POWER.get());
+
                         pOutput.accept(ModBlocks.CANDY_OF_BATTLE_ORE.get());
                         pOutput.accept(ModBlocks.CANDY_OF_HASTE_ORE.get());
                         pOutput.accept(ModBlocks.CANDY_OF_POWER_ORE.get());

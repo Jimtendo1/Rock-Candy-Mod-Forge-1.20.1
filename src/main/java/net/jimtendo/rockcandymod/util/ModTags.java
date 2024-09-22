@@ -18,6 +18,8 @@ public class ModTags {
         public static final TagKey<Block> ORES_CANDY_OF_SWIFTNESS = tag("ores/candy_of_swiftness");
 
         public static final TagKey<Block> NEEDS_CANDY_OF_BATTLE_TOOL = tag("needs_candy_of_battle_tool");
+        public static final TagKey<Block> NEEDS_CANDY_OF_HASTE_TOOL = tag("needs_candy_of_haste_tool");
+        public static final TagKey<Block> NEEDS_CANDY_OF_POWER_TOOL = tag("needs_candy_of_power_tool");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(RockCandyMod.MOD_ID, name));
