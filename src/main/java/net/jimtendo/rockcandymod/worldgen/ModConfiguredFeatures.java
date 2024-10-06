@@ -30,7 +30,6 @@ public class ModConfiguredFeatures {
         register(context, OVERWORLD_CANDY_OF_BATTLE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCandyofBattleOres, 9));
     }
 
-
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(RockCandyMod.MOD_ID, name));
     }
