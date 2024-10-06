@@ -26,9 +26,7 @@ public class PickaxeOfBattleItem extends PickaxeItem {
             ItemStack mainHandItem = player.getMainHandItem();
 
             if (mainHandItem.getItem() instanceof PickaxeOfBattleItem) {
-                if (!player.hasEffect(MobEffects.DAMAGE_BOOST)) {
                     player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 159, 0, false, false));
-                }
             }
         }
     }

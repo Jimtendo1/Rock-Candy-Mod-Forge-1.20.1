@@ -26,9 +26,8 @@ public class AxeOfBattleItem extends AxeItem {
             ItemStack mainHandItem = player.getMainHandItem();
 
             if (mainHandItem.getItem() instanceof AxeOfBattleItem) {
-                if (!player.hasEffect(MobEffects.DAMAGE_BOOST)) {
-                    player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 159, 0, false, false));
-                }
+                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 159, 0, false, false));
+
             }
         }
     }

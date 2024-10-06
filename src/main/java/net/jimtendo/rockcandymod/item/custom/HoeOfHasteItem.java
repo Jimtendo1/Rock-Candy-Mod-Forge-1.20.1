@@ -26,9 +26,7 @@ public class HoeOfHasteItem extends HoeItem {
             ItemStack mainHandItem = player.getMainHandItem();
 
             if (mainHandItem.getItem() instanceof HoeOfHasteItem) {
-                if (!player.hasEffect(MobEffects.DIG_SPEED)) {
                     player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 159, 0, false, false));
-                }
             }
         }
     }

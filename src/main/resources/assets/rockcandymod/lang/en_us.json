@@ -16,16 +16,110 @@
   "item.rockcandymod.axe_of_battle": "§cAxe of Battle",
   "item.rockcandymod.shovel_of_battle": "§cShovel of Battle",
   "item.rockcandymod.hoe_of_battle": "§cHoe of Battle",
+
+  "item.rockcandymod.helmet_of_battle": "§cHelmet of Battle",
+  "item.rockcandymod.chestplate_of_battle": "§cChestplate of Battle",
+  "item.rockcandymod.leggings_of_battle": "§cLeggings of Battle",
+  "item.rockcandymod.boots_of_battle": "§cBoots of Battle",
+
   "item.rockcandymod.sword_of_haste": "§eSword of Haste",
   "item.rockcandymod.pickaxe_of_haste": "§ePickaxe of Haste",
   "item.rockcandymod.axe_of_haste": "§eAxe of Haste",
   "item.rockcandymod.shovel_of_haste": "§eShovel of Haste",
   "item.rockcandymod.hoe_of_haste": "§eHoe of Haste",
+
+  "item.rockcandymod.helmet_of_haste": "§eHelmet of Haste",
+  "item.rockcandymod.chestplate_of_haste": "§eChestplate of Haste",
+  "item.rockcandymod.leggings_of_haste": "§eLeggings of Haste",
+  "item.rockcandymod.boots_of_haste": "§eBoots of Haste",
+
   "item.rockcandymod.sword_of_power": "§bSword of Power",
   "item.rockcandymod.pickaxe_of_power": "§bPickaxe of Power",
   "item.rockcandymod.axe_of_power": "§bAxe of Power",
   "item.rockcandymod.shovel_of_power": "§bShovel of Power",
   "item.rockcandymod.hoe_of_power": "§bHoe of Power",
+
+  "item.rockcandymod.helmet_of_power": "§bHelmet of Power",
+  "item.rockcandymod.chestplate_of_power": "§bChestplate of Power",
+  "item.rockcandymod.leggings_of_power": "§bLeggings of Power",
+  "item.rockcandymod.boots_of_power": "§bBoots of Power",
+
+  "item.rockcandymod.sword_of_stealth": "§5Sword of Stealth",
+  "item.rockcandymod.pickaxe_of_stealth": "§5Pickaxe of Stealth",
+  "item.rockcandymod.axe_of_stealth": "§5Axe of Stealth",
+  "item.rockcandymod.shovel_of_stealth": "§5Shovel of Stealth",
+  "item.rockcandymod.hoe_of_stealth": "§5Hoe of Stealth",
+
+  "item.rockcandymod.helmet_of_stealth": "§5Helmet of Stealth",
+  "item.rockcandymod.chestplate_of_stealth": "§5Chestplate of Stealth",
+  "item.rockcandymod.leggings_of_stealth": "§5Leggings of Stealth",
+  "item.rockcandymod.boots_of_stealth": "§5Boots of Stealth",
+
+  "item.rockcandymod.sword_of_swiftness": "§aSword of Swiftness",
+  "item.rockcandymod.pickaxe_of_swiftness": "§aPickaxe of Swiftness",
+  "item.rockcandymod.axe_of_swiftness": "§aAxe of Swiftness",
+  "item.rockcandymod.shovel_of_swiftness": "§aShovel of Swiftness",
+  "item.rockcandymod.hoe_of_swiftness": "§aHoe of Swiftness",
+
+  "item.rockcandymod.helmet_of_swiftness": "§aHelmet of Swiftness",
+  "item.rockcandymod.chestplate_of_swiftness": "§aChestplate of Swiftness",
+  "item.rockcandymod.leggings_of_swiftness": "§aLeggings of Swiftness",
+  "item.rockcandymod.boots_of_swiftness": "§aBoots of Swiftness",
+
+  "item.rockcandymod.sword_of_adrenaline": "§6Sword of Adrenaline",
+  "item.rockcandymod.pickaxe_of_adrenaline": "§6Pickaxe of Adrenaline",
+  "item.rockcandymod.axe_of_adrenaline": "§6Axe of Adrenaline",
+  "item.rockcandymod.shovel_of_adrenaline": "§6Shovel of Adrenaline",
+  "item.rockcandymod.hoe_of_adrenaline": "§6Hoe of Adrenaline",
+
+  "item.rockcandymod.helmet_of_adrenaline": "§6Helmet of Adrenaline",
+  "item.rockcandymod.chestplate_of_adrenaline": "§6Chestplate of Adrenaline",
+  "item.rockcandymod.leggings_of_adrenaline": "§6Leggings of Adrenaline",
+  "item.rockcandymod.boots_of_adrenaline": "§6Boots of Adrenaline",
+
+  "item.rockcandymod.sword_of_agility": "§dSword of Agility",
+  "item.rockcandymod.pickaxe_of_agility": "§dPickaxe of Agility",
+  "item.rockcandymod.axe_of_agility": "§dAxe of Agility",
+  "item.rockcandymod.shovel_of_agility": "§dShovel of Agility",
+  "item.rockcandymod.hoe_of_agility": "§dHoe of Agility",
+
+  "item.rockcandymod.helmet_of_agility": "§dHelmet of Agility",
+  "item.rockcandymod.chestplate_of_agility": "§dChestplate of Agility",
+  "item.rockcandymod.leggings_of_agility": "§dLeggings of Agility",
+  "item.rockcandymod.boots_of_agility": "§dBoots of Agility",
+
+  "item.rockcandymod.sword_of_defense": "§4Sword of Defense",
+  "item.rockcandymod.pickaxe_of_defense": "§4Pickaxe of Defense",
+  "item.rockcandymod.axe_of_defense": "§4Axe of Defense",
+  "item.rockcandymod.shovel_of_defense": "§4Shovel of Defense",
+  "item.rockcandymod.hoe_of_defense": "§4Hoe of Defense",
+
+  "item.rockcandymod.helmet_of_defense": "§4Helmet of Defense",
+  "item.rockcandymod.chestplate_of_defense": "§4Chestplate of Defense",
+  "item.rockcandymod.leggings_of_defense": "§4Leggings of Defense",
+  "item.rockcandymod.boots_of_defense": "§4Boots of Defense",
+
+  "item.rockcandymod.sword_of_purity": "Sword of Purity",
+  "item.rockcandymod.pickaxe_of_purity": "Pickaxe of Purity",
+  "item.rockcandymod.axe_of_purity": "Axe of Purity",
+  "item.rockcandymod.shovel_of_purity": "Shovel of Purity",
+  "item.rockcandymod.hoe_of_purity": "Hoe of Purity",
+
+  "item.rockcandymod.helmet_of_purity": "Helmet of Purity",
+  "item.rockcandymod.chestplate_of_purity": "Chestplate of Purity",
+  "item.rockcandymod.leggings_of_purity": "Leggings of Purity",
+  "item.rockcandymod.boots_of_purity": "Boots of Purity",
+
+  "item.rockcandymod.sword_of_destruction": "§8Sword of Destruction",
+  "item.rockcandymod.pickaxe_of_destruction": "§8Pickaxe of Destruction",
+  "item.rockcandymod.axe_of_destruction": "§8Axe of Destruction",
+  "item.rockcandymod.shovel_of_destruction": "§8Shovel of Destruction",
+  "item.rockcandymod.hoe_of_destruction": "§8Hoe of Destruction",
+
+  "item.rockcandymod.helmet_of_destruction": "§8Helmet of Destruction",
+  "item.rockcandymod.chestplate_of_destruction": "§8Chestplate of Destruction",
+  "item.rockcandymod.leggings_of_destruction": "§8Leggings of Destruction",
+  "item.rockcandymod.boots_of_destruction": "§8Boots of Destruction",
 
   "block.rockcandymod.candy_of_battle_ore": "§cCandy of Battle Ore",
   "block.rockcandymod.candy_of_haste_ore": "§eCandy of Haste Ore",
@@ -75,6 +169,7 @@
   "tooltip.rockcandymod.candy.weakness2": "§9- Weakness II",
   "tooltip.rockcandymod.candy.swiftness4": "§9- Swiftness IV",
   "tooltip.rockcandymod.candy.jump4": "§9- Jump Boost IV",
+  "tooltip.rockcandymod.candy.jump3": "§9- Jump Boost III",
   "tooltip.rockcandymod.candy.weakness1": "§9- Weakness I",
   "tooltip.rockcandymod.candy.mining_fatique1": "§9- Mining Fatique I",
   "tooltip.rockcandymod.candy.slowness1": "§9- Slowness I",
@@ -85,6 +180,16 @@
   "tooltip.rockcandymod.candy.strength4": "§9- Strength IV",
   "tooltip.rockcandymod.candy.blindness": "§9- Blindness",
   "tooltip.rockcandymod.candy.slowness3": "§9- Slowness III",
+  "tooltip.rockcandymod.candy.weakness1_10sec": "§9- Weakness I for 10 seconds.",
+  "tooltip.rockcandymod.candy.blindess_10sec": "§9- Blindess for 10 seconds.",
+  "tooltip.rockcandymod.candy.haste": "§9- Haste I",
+  "tooltip.rockcandymod.candy.haste2": "§9- Haste II",
+  "tooltip.rockcandymod.candy.resistance": "§9- Resistance I",
+  "tooltip.rockcandymod.candy.regeneration": "§9- Regeneration I",
+  "tooltip.rockcandymod.candy.absorbtion": "§9- Absorption",
+  "tooltip.rockcandymod.candy.saturation": "§9- Saturation I",
+  "tooltip.rockcandymod.candy.strength": "§9- Strength I",
+
 
   "tooltip.rockcandymod.sword.line1": "A sword crafted from",
   "tooltip.rockcandymod.pickaxe.line1": "A pickaxe crafted from",
@@ -108,8 +213,77 @@
   "tooltip.rockcandymod.condensed.line3": "into tools.",
 
   "tooltip.rockcandymod.tool.effects": "§9Effects when held:",
+  "tooltip.rockcandymod.tool.effects.hit": "§9Effects applied to those hit:",
   "tooltip.rockcandymod.tool.effect.strength": "§9- Strength I",
-  "tooltip.rockcandymod.tool.effect.haste1": "§9- Haste I"
+  "tooltip.rockcandymod.tool.effect.haste1": "§9- Haste I",
+
+  "tooltip.rockcandymod.armor.effects": "§9Set effects:",
+
+  "tooltip.rockcandymod.helmet_of_battle.line1": "A red helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_battle.line1": "A red chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_battle.line1": "Red leggings constructed from",
+  "tooltip.rockcandymod.boots_of_battle.line1": "Red boots constructed from",
+
+  "tooltip.rockcandymod.helmet_of_haste.line1": "A yellow helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_haste.line1": "A yellow chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_haste.line1": "Yellow leggings constructed from",
+  "tooltip.rockcandymod.boots_of_haste.line1": "Yellow boots constructed from",
+
+  "tooltip.rockcandymod.helmet_of_power.line1": "A blue helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_power.line1": "A blue chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_power.line1": "Blue leggings constructed from",
+  "tooltip.rockcandymod.boots_of_power.line1": "Blue boots constructed from",
+
+  "tooltip.rockcandymod.helmet_of_stealth.line1": "A purple helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_stealth.line1": "A purple chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_stealth.line1": "Purple leggings constructed from",
+  "tooltip.rockcandymod.boots_of_stealth.line1": "Purple boots constructed from",
+
+  "tooltip.rockcandymod.helmet_of_swiftness.line1": "A green helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_swiftness.line1": "A green chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_swiftness.line1": "Green leggings constructed from",
+  "tooltip.rockcandymod.boots_of_swiftness.line1": "Green boots constructed from",
+
+  "tooltip.rockcandymod.helmet_of_adrenaline.line1": "An orange helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_adrenaline.line1": "An orange chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_adrenaline.line1": "Orange leggings constructed from",
+  "tooltip.rockcandymod.boots_of_adrenaline.line1": "Orange boots constructed from",
+
+  "tooltip.rockcandymod.helmet_of_agility.line1": "A pink helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_agility.line1": "A pink chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_agility.line1": "Pink leggings constructed from",
+  "tooltip.rockcandymod.boots_of_agility.line1": "Pink boots constructed from",
+
+  "tooltip.rockcandymod.helmet_of_defense.line1": "A brown helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_defense.line1": "A brown chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_defense.line1": "Brown leggings constructed from",
+  "tooltip.rockcandymod.boots_of_defense.line1": "Brown boots constructed from",
+
+  "tooltip.rockcandymod.helmet_of_purity.line1": "A white helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_purity.line1": "A white chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_purity.line1": "White leggings constructed from",
+  "tooltip.rockcandymod.boots_of_purity.line1": "White boots constructed from",
+
+  "tooltip.rockcandymod.helmet_of_destruction.line1": "A black helmet constructed from",
+  "tooltip.rockcandymod.chestplate_of_destruction.line1": "A black chestplate constructed from",
+  "tooltip.rockcandymod.leggings_of_destruction.line1": "Black leggings constructed from",
+  "tooltip.rockcandymod.boots_of_destruction.line1": "Black boots constructed from",
+
+
+
+
+  "tooltip.rockcandymod.candy_of_battle.line2": "Candy of Battle. It grants special",
+  "tooltip.rockcandymod.candy_of_haste.line2": "Candy of Haste. It grants special",
+  "tooltip.rockcandymod.candy_of_power.line2": "Candy of Power. It grants special",
+  "tooltip.rockcandymod.candy_of_stealth.line2": "Candy of Stealth. It grants special",
+  "tooltip.rockcandymod.candy_of_swiftness.line2": "Candy of Swiftness. It grants special",
+  "tooltip.rockcandymod.candy_of_adrenaline.line2": "Candy of Adrenaline. It grants special",
+  "tooltip.rockcandymod.candy_of_agility.line2": "Candy of Agility. It grants special",
+  "tooltip.rockcandymod.candy_of_defense.line2": "Candy of Defense. It grants special",
+  "tooltip.rockcandymod.candy_of_purity.line2": "Candy of Purity. It grants special",
+  "tooltip.rockcandymod.candy_of_destruction.line2": "Candy of Destruction. It grants special",
+
+  "tooltip.rockcandymod.candy_of_battle.line3": "effects when the full set is worn."
 
 
 }

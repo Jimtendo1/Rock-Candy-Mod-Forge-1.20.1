@@ -26,9 +26,7 @@ public class ShovelOfBattleItem extends ShovelItem {
             ItemStack mainHandItem = player.getMainHandItem();
 
             if (mainHandItem.getItem() instanceof ShovelOfBattleItem) {
-                if (!player.hasEffect(MobEffects.DAMAGE_BOOST)) {
                     player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 159, 0, false, false));
-                }
             }
         }
     }

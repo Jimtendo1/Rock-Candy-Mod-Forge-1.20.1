@@ -26,9 +26,7 @@ public class SwordOfBattleItem extends SwordItem {
             ItemStack mainHandItem = player.getMainHandItem();
 
             if (mainHandItem.getItem() instanceof SwordOfBattleItem) {
-                if (!player.hasEffect(MobEffects.DAMAGE_BOOST)) {
                     player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 159, 0, false, false));
-                }
             }
         }
     }

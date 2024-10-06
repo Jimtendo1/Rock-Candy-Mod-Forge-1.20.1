@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "rockcandymod:candy_toolrod"
+    },
+    "X": {
+      "item": "rockcandymod:condensed_candy_of_power"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "rockcandymod:shovel_of_power"
+  }
+}

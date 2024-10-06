@@ -39,17 +39,109 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.SHOVEL_OF_BATTLE.get());
                         pOutput.accept(ModItems.HOE_OF_BATTLE.get());
 
+                        pOutput.accept(ModItems.HELMET_OF_BATTLE.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_BATTLE.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_BATTLE.get());
+                        pOutput.accept(ModItems.BOOTS_OF_BATTLE.get());
+
                         pOutput.accept(ModItems.SWORD_OF_HASTE.get());
                         pOutput.accept(ModItems.PICKAXE_OF_HASTE.get());
                         pOutput.accept(ModItems.AXE_OF_HASTE.get());
                         pOutput.accept(ModItems.SHOVEL_OF_HASTE.get());
                         pOutput.accept(ModItems.HOE_OF_HASTE.get());
 
+                        pOutput.accept(ModItems.HELMET_OF_HASTE.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_HASTE.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_HASTE.get());
+                        pOutput.accept(ModItems.BOOTS_OF_HASTE.get());
+
                         pOutput.accept(ModItems.SWORD_OF_POWER.get());
                         pOutput.accept(ModItems.PICKAXE_OF_POWER.get());
                         pOutput.accept(ModItems.AXE_OF_POWER.get());
                         pOutput.accept(ModItems.SHOVEL_OF_POWER.get());
                         pOutput.accept(ModItems.HOE_OF_POWER.get());
+
+                        pOutput.accept(ModItems.HELMET_OF_POWER.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_POWER.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_POWER.get());
+                        pOutput.accept(ModItems.BOOTS_OF_POWER.get());
+
+                        pOutput.accept(ModItems.SWORD_OF_STEALTH.get());
+                        pOutput.accept(ModItems.PICKAXE_OF_STEALTH.get());
+                        pOutput.accept(ModItems.AXE_OF_STEALTH.get());
+                        pOutput.accept(ModItems.SHOVEL_OF_STEALTH.get());
+                        pOutput.accept(ModItems.HOE_OF_STEALTH.get());
+
+                        pOutput.accept(ModItems.HELMET_OF_STEALTH.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_STEALTH.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_STEALTH.get());
+                        pOutput.accept(ModItems.BOOTS_OF_STEALTH.get());
+
+                        pOutput.accept(ModItems.SWORD_OF_SWIFTNESS.get());
+                        pOutput.accept(ModItems.PICKAXE_OF_SWIFTNESS.get());
+                        pOutput.accept(ModItems.AXE_OF_SWIFTNESS.get());
+                        pOutput.accept(ModItems.SHOVEL_OF_SWIFTNESS.get());
+                        pOutput.accept(ModItems.HOE_OF_SWIFTNESS.get());
+
+                        pOutput.accept(ModItems.HELMET_OF_SWIFTNESS.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_SWIFTNESS.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_SWIFTNESS.get());
+                        pOutput.accept(ModItems.BOOTS_OF_SWIFTNESS.get());
+
+                        pOutput.accept(ModItems.SWORD_OF_ADRENALINE.get());
+                        pOutput.accept(ModItems.PICKAXE_OF_ADRENALINE.get());
+                        pOutput.accept(ModItems.AXE_OF_ADRENALINE.get());
+                        pOutput.accept(ModItems.SHOVEL_OF_ADRENALINE.get());
+                        pOutput.accept(ModItems.HOE_OF_ADRENALINE.get());
+
+                        pOutput.accept(ModItems.HELMET_OF_ADRENALINE.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_ADRENALINE.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_ADRENALINE.get());
+                        pOutput.accept(ModItems.BOOTS_OF_ADRENALINE.get());
+
+                        pOutput.accept(ModItems.SWORD_OF_AGILITY.get());
+                        pOutput.accept(ModItems.PICKAXE_OF_AGILITY.get());
+                        pOutput.accept(ModItems.AXE_OF_AGILITY.get());
+                        pOutput.accept(ModItems.SHOVEL_OF_AGILITY.get());
+                        pOutput.accept(ModItems.HOE_OF_AGILITY.get());
+
+                        pOutput.accept(ModItems.HELMET_OF_AGILITY.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_AGILITY.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_AGILITY.get());
+                        pOutput.accept(ModItems.BOOTS_OF_AGILITY.get());
+
+                        pOutput.accept(ModItems.SWORD_OF_DEFENSE.get());
+                        pOutput.accept(ModItems.PICKAXE_OF_DEFENSE.get());
+                        pOutput.accept(ModItems.AXE_OF_DEFENSE.get());
+                        pOutput.accept(ModItems.SHOVEL_OF_DEFENSE.get());
+                        pOutput.accept(ModItems.HOE_OF_DEFENSE.get());
+
+                        pOutput.accept(ModItems.HELMET_OF_DEFENSE.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_DEFENSE.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_DEFENSE.get());
+                        pOutput.accept(ModItems.BOOTS_OF_DEFENSE.get());
+
+                        pOutput.accept(ModItems.SWORD_OF_PURITY.get());
+                        pOutput.accept(ModItems.PICKAXE_OF_PURITY.get());
+                        pOutput.accept(ModItems.AXE_OF_PURITY.get());
+                        pOutput.accept(ModItems.SHOVEL_OF_PURITY.get());
+                        pOutput.accept(ModItems.HOE_OF_PURITY.get());
+
+                        pOutput.accept(ModItems.HELMET_OF_PURITY.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_PURITY.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_PURITY.get());
+                        pOutput.accept(ModItems.BOOTS_OF_PURITY.get());
+
+                        pOutput.accept(ModItems.SWORD_OF_DESTRUCTION.get());
+                        pOutput.accept(ModItems.PICKAXE_OF_DESTRUCTION.get());
+                        pOutput.accept(ModItems.AXE_OF_DESTRUCTION.get());
+                        pOutput.accept(ModItems.SHOVEL_OF_DESTRUCTION.get());
+                        pOutput.accept(ModItems.HOE_OF_DESTRUCTION.get());
+
+                        pOutput.accept(ModItems.HELMET_OF_DESTRUCTION.get());
+                        pOutput.accept(ModItems.CHESTPLATE_OF_DESTRUCTION.get());
+                        pOutput.accept(ModItems.LEGGINGS_OF_DESTRUCTION.get());
+                        pOutput.accept(ModItems.BOOTS_OF_DESTRUCTION.get());
 
                         pOutput.accept(ModBlocks.CANDY_OF_BATTLE_ORE.get());
                         pOutput.accept(ModBlocks.CANDY_OF_HASTE_ORE.get());

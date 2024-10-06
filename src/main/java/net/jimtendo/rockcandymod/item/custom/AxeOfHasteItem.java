@@ -29,9 +29,7 @@ public class AxeOfHasteItem extends AxeItem {
             ItemStack mainHandItem = player.getMainHandItem();
 
             if (mainHandItem.getItem() instanceof AxeOfHasteItem) {
-                if (!player.hasEffect(MobEffects.DIG_SPEED)) {
                     player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 159, 0, false, false));
-                }
             }
         }
     }

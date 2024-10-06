@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "rockcandymod:candy_toolrod"
+    },
+    "X": {
+      "item": "rockcandymod:condensed_candy_of_stealth"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "rockcandymod:pickaxe_of_stealth"
+  }
+}

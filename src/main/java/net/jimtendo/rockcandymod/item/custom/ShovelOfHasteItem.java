@@ -26,9 +26,7 @@ public class ShovelOfHasteItem extends ShovelItem {
             ItemStack mainHandItem = player.getMainHandItem();
 
             if (mainHandItem.getItem() instanceof ShovelOfHasteItem) {
-                if (!player.hasEffect(MobEffects.DIG_SPEED)) {
                     player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 159, 0, false, false));
-                }
             }
         }
     }

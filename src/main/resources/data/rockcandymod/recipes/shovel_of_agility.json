@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "rockcandymod:candy_toolrod"
+    },
+    "X": {
+      "item": "rockcandymod:condensed_candy_of_agility"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "rockcandymod:shovel_of_agility"
+  }
+}

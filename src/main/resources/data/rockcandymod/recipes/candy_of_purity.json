@@ -18,5 +18,6 @@
   "result": {
     "item": "rockcandymod:candy_of_purity",
     "count": 2
-  }
+  },
+  "group": "candy_of_purity_group"
 }

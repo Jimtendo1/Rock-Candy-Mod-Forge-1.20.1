@@ -26,9 +26,7 @@ public class SwordOfHasteItem extends SwordItem {
             ItemStack mainHandItem = player.getMainHandItem();
 
             if (mainHandItem.getItem() instanceof SwordOfHasteItem) {
-                if (!player.hasEffect(MobEffects.DIG_SPEED)) {
                     player.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 159, 0, false, false));
-                }
             }
         }
     }

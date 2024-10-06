@@ -20,6 +20,13 @@ public class ModTags {
         public static final TagKey<Block> NEEDS_CANDY_OF_BATTLE_TOOL = tag("needs_candy_of_battle_tool");
         public static final TagKey<Block> NEEDS_CANDY_OF_HASTE_TOOL = tag("needs_candy_of_haste_tool");
         public static final TagKey<Block> NEEDS_CANDY_OF_POWER_TOOL = tag("needs_candy_of_power_tool");
+        public static final TagKey<Block> NEEDS_CANDY_OF_STEALTH_TOOL = tag("needs_candy_of_stealth_tool");
+        public static final TagKey<Block> NEEDS_CANDY_OF_SWIFTNESS_TOOL = tag("needs_candy_of_swiftness_tool");
+        public static final TagKey<Block> NEEDS_CANDY_OF_ADRENALINE_TOOL = tag("needs_candy_of_adrenaline_tool");
+        public static final TagKey<Block> NEEDS_CANDY_OF_AGILITY_TOOL = tag("needs_candy_of_agility_tool");
+        public static final TagKey<Block> NEEDS_CANDY_OF_DEFENSE_TOOL = tag("needs_candy_of_defense_tool");
+        public static final TagKey<Block> NEEDS_CANDY_OF_PURITY_TOOL = tag("needs_candy_of_purity_tool");
+        public static final TagKey<Block> NEEDS_CANDY_OF_DESTRUCTION_TOOL = tag("needs_candy_of_destruction_tool");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(RockCandyMod.MOD_ID, name));
