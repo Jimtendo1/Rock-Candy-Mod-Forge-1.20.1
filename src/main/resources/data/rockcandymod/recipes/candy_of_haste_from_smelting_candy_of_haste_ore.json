@@ -9,5 +9,6 @@
   "result": {
     "item": "rockcandymod:candy_of_haste",
     "count": 2
-  }
+  },
+  "group": "candy_of_haste_smelting_group"
 }

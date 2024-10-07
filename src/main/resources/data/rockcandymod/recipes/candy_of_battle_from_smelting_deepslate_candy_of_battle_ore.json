@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "rockcandymod:deepslate_candy_of_battle_ore"
+  },
+  "result": {
+    "item": "rockcandymod:candy_of_battle",
+    "count": 2
+  },
+  "group": "candy_of_battle_smelting_group"
+}

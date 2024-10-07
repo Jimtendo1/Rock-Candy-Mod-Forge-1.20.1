@@ -148,6 +148,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.CANDY_OF_POWER_ORE.get());
                         pOutput.accept(ModBlocks.CANDY_OF_STEALTH_ORE.get());
                         pOutput.accept(ModBlocks.CANDY_OF_SWIFTNESS_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_CANDY_OF_BATTLE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_CANDY_OF_HASTE_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_CANDY_OF_POWER_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_CANDY_OF_STEALTH_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_CANDY_OF_SWIFTNESS_ORE.get());
                         pOutput.accept(ModBlocks.CONDENSED_CANDY_OF_BATTLE.get());
                         pOutput.accept(ModBlocks.CONDENSED_CANDY_OF_HASTE.get());
                         pOutput.accept(ModBlocks.CONDENSED_CANDY_OF_POWER.get());

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "rockcandymod:candy_of_swiftness_ore_placed",
+  "step": "underground_ores"
+}

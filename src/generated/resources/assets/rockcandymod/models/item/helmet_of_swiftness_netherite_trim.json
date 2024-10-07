@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rockcandymod:item/helmet_of_swiftness",
+    "layer1": "minecraft:trims/items/helmet_trim_netherite"
+  }
+}

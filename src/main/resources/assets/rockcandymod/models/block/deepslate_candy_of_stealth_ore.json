@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "rockcandymod:block/deepslate_candy_of_stealth_ore"
+  }
+}

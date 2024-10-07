@@ -24,17 +24,32 @@ public class ModBlocks {
     public static final RegistryObject<Block> CANDY_OF_BATTLE_ORE = registerBlock("candy_of_battle_ore",
         () -> new CandyOfBattleOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
+    public static final RegistryObject<Block> DEEPSLATE_CANDY_OF_BATTLE_ORE = registerBlock("deepslate_candy_of_battle_ore",
+        () -> new CandyOfBattleOreItem(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)
+                    .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CANDY_OF_HASTE_ORE = registerBlock("candy_of_haste_ore",
             () -> new CandyOfHasteOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
+                    .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
+    public static final RegistryObject<Block> DEEPSLATE_CANDY_OF_HASTE_ORE = registerBlock("deepslate_candy_of_haste_ore",
+            () -> new CandyOfBattleOreItem(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CANDY_OF_POWER_ORE = registerBlock("candy_of_power_ore",
             () -> new CandyOfPowerOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
+    public static final RegistryObject<Block> DEEPSLATE_CANDY_OF_POWER_ORE = registerBlock("deepslate_candy_of_power_ore",
+            () -> new CandyOfBattleOreItem(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)
+                    .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CANDY_OF_STEALTH_ORE = registerBlock("candy_of_stealth_ore",
             () -> new CandyOfStealthOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
+    public static final RegistryObject<Block> DEEPSLATE_CANDY_OF_STEALTH_ORE = registerBlock("deepslate_candy_of_stealth_ore",
+            () -> new CandyOfBattleOreItem(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)
+                    .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CANDY_OF_SWIFTNESS_ORE = registerBlock("candy_of_swiftness_ore",
             () -> new CandyOfSwiftnessOreItem(BlockBehaviour.Properties.copy(Blocks.COAL_ORE)
+                    .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
+    public static final RegistryObject<Block> DEEPSLATE_CANDY_OF_SWIFTNESS_ORE = registerBlock("deepslate_candy_of_swiftness_ore",
+            () -> new CandyOfBattleOreItem(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_COAL_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(0,0)));
     public static final RegistryObject<Block> CONDENSED_CANDY_OF_BATTLE = registerBlock("condensed_candy_of_battle",
             () -> new CondensedCandyOfBattleItem(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));

@@ -18,17 +18,42 @@ import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_CANDY_OF_BATTLE_ORE_KEY = registerKey("candy_of_battle_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_CANDY_OF_HASTE_ORE_KEY = registerKey("candy_of_haste_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_CANDY_OF_POWER_ORE_KEY = registerKey("candy_of_power_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_CANDY_OF_STEALTH_ORE_KEY = registerKey("candy_of_stealth_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_CANDY_OF_SWIFTNESS_ORE_KEY = registerKey("candy_of_swiftness_ore");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceable = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
-        List<OreConfiguration.TargetBlockState> overworldCandyofBattleOres = List.of(OreConfiguration.target(stoneReplaceable,
-                        ModBlocks.CANDY_OF_BATTLE_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceables, ModBlocks.CANDY_OF_BATTLE_ORE.get().defaultBlockState()));
+        List<OreConfiguration.TargetBlockState> overworldCandyOfBattleOres = List.of(
+                OreConfiguration.target(stoneReplaceable, ModBlocks.CANDY_OF_BATTLE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_CANDY_OF_BATTLE_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_CANDY_OF_BATTLE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCandyofBattleOres, 9));
+        List<OreConfiguration.TargetBlockState> overworldCandyOfHasteOres = List.of(
+                OreConfiguration.target(stoneReplaceable, ModBlocks.CANDY_OF_HASTE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_CANDY_OF_HASTE_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldCandyOfPowerOres = List.of(
+                OreConfiguration.target(stoneReplaceable, ModBlocks.CANDY_OF_POWER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_CANDY_OF_POWER_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldCandyOfStealthOres = List.of(
+                OreConfiguration.target(stoneReplaceable, ModBlocks.CANDY_OF_STEALTH_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_CANDY_OF_STEALTH_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldCandyOfSwiftnessOres = List.of(
+                OreConfiguration.target(stoneReplaceable, ModBlocks.CANDY_OF_SWIFTNESS_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_CANDY_OF_SWIFTNESS_ORE.get().defaultBlockState()));
+
+        register(context, OVERWORLD_CANDY_OF_BATTLE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCandyOfBattleOres, 6));
+        register(context, OVERWORLD_CANDY_OF_HASTE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCandyOfHasteOres, 6));
+        register(context, OVERWORLD_CANDY_OF_POWER_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCandyOfPowerOres, 6));
+        register(context, OVERWORLD_CANDY_OF_STEALTH_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCandyOfStealthOres, 6));
+        register(context, OVERWORLD_CANDY_OF_SWIFTNESS_ORE_KEY, Feature.ORE, new OreConfiguration(overworldCandyOfSwiftnessOres, 6));
     }
+
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
         return ResourceKey.create(Registries.CONFIGURED_FEATURE, new ResourceLocation(RockCandyMod.MOD_ID, name));
